@@ -1,0 +1,366 @@
+{
+	"id": "8f7d68b0-13f9-4535-bad0-6fb02c01187c",
+	"name": "E COMMERECE",
+	"timestamp": "2022-03-11T03:48:22.668Z",
+	"collection_id": "19955300-b877fccb-a541-4f64-8e0c-623bade8eaba",
+	"folder_id": 0,
+	"environment_id": "19955300-558688f1-20f2-4e77-a19c-e1538591b978",
+	"totalPass": 24,
+	"totalFail": 4,
+	"results": [
+		{
+			"id": "28081c02-4bd1-400d-a4c1-dde22e1a50d0",
+			"name": "SINGNUP",
+			"time": 2846,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				3449,
+				2857,
+				3743,
+				2846
+			],
+			"allTests": [
+				{},
+				{},
+				{},
+				{}
+			]
+		},
+		{
+			"id": "26e7484b-0281-4241-8b16-1259d8fc54e6",
+			"name": "login",
+			"time": 2912,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 4,
+					"fail": 0
+				}
+			},
+			"times": [
+				2879,
+				2786,
+				2811,
+				2912
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "0a2dd949-2fb3-4622-b5b9-39592b9948bf",
+			"name": "get All users",
+			"time": 1284,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 4,
+					"fail": 0
+				}
+			},
+			"times": [
+				1288,
+				1539,
+				1532,
+				1284
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "39566e13-184c-43fe-800c-9bddf08fc989",
+			"name": "Delete customer by id",
+			"time": 676,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 4,
+					"fail": 0
+				}
+			},
+			"times": [
+				676,
+				677,
+				674,
+				676
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "f327b012-8f3a-464d-b368-4e0b8833f7cc",
+			"name": "GET ALL ORDERS",
+			"time": 1991,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				1989,
+				2007,
+				1989,
+				1991
+			],
+			"allTests": [
+				{},
+				{},
+				{},
+				{}
+			]
+		},
+		{
+			"id": "de7153ad-c6ad-4a29-8d24-e04798331316",
+			"name": "Create Procudt",
+			"time": 694,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 4,
+					"fail": 0
+				}
+			},
+			"times": [
+				681,
+				681,
+				677,
+				694
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "bd8bf489-339b-4925-bb9b-066483dc04f8",
+			"name": "Product By Id",
+			"time": 260,
+			"responseCode": {
+				"code": 500,
+				"name": "Internal Server Error"
+			},
+			"tests": {
+				"Status code is 200": false
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 0,
+					"fail": 4
+				}
+			},
+			"times": [
+				259,
+				267,
+				258,
+				260
+			],
+			"allTests": [
+				{
+					"Status code is 200": false
+				},
+				{
+					"Status code is 200": false
+				},
+				{
+					"Status code is 200": false
+				},
+				{
+					"Status code is 200": false
+				}
+			]
+		},
+		{
+			"id": "775e23c4-3b6f-46a5-a9e6-014ff4b6e1b3",
+			"name": "Update Product",
+			"time": 681,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 4,
+					"fail": 0
+				}
+			},
+			"times": [
+				676,
+				674,
+				690,
+				681
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "36d48857-ed7d-416f-a015-ba28d2eab22e",
+			"name": "Delete product by id",
+			"time": 679,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 4,
+					"fail": 0
+				}
+			},
+			"times": [
+				673,
+				678,
+				682,
+				679
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			]
+		}
+	],
+	"count": 4,
+	"totalTime": 49815,
+	"collection": {
+		"requests": [
+			{
+				"id": "28081c02-4bd1-400d-a4c1-dde22e1a50d0",
+				"method": "POST"
+			},
+			{
+				"id": "26e7484b-0281-4241-8b16-1259d8fc54e6",
+				"method": "POST"
+			},
+			{
+				"id": "0a2dd949-2fb3-4622-b5b9-39592b9948bf",
+				"method": "GET"
+			},
+			{
+				"id": "39566e13-184c-43fe-800c-9bddf08fc989",
+				"method": "DELETE"
+			},
+			{
+				"id": "f327b012-8f3a-464d-b368-4e0b8833f7cc",
+				"method": "GET"
+			},
+			{
+				"id": "de7153ad-c6ad-4a29-8d24-e04798331316",
+				"method": "POST"
+			},
+			{
+				"id": "bd8bf489-339b-4925-bb9b-066483dc04f8",
+				"method": "GET"
+			},
+			{
+				"id": "775e23c4-3b6f-46a5-a9e6-014ff4b6e1b3",
+				"method": "PATCH"
+			},
+			{
+				"id": "36d48857-ed7d-416f-a015-ba28d2eab22e",
+				"method": "DELETE"
+			}
+		]
+	}
+}
